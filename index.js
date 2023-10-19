@@ -8,7 +8,7 @@ app.get("/Girr/:id", (req, res) => {
 app.post("/Yanto/:id", (req, res) => {
     res.send("Nasi padang best");
 });
-app.push("/Dadang/:id", (req, res) => {
+app.put("/Dadang/:id", (req, res) => {
     res.send("Jualan sayur dimana?");
 });
 app.delete("/Agus/:id", (req, res) => {
